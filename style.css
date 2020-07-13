@@ -148,3 +148,14 @@ hr{
     background: url("./img/Sin\ título-1.jpg");
     margin-bottom: 40px
 }
+
+.cards-banner-one .content  {
+    width: 100%;
+    padding:50px 0 0 30px;
+    color: #ffffff;
+
+}
+.cards-banner-one p,
+.cards-banner-one h2 {
+    margin: 10px;
+}
