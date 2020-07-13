@@ -128,7 +128,7 @@ hr{
     margin: 10px 0px;
 }
 
-.news-card a {
+.news-cards a {
     padding: 10px 0px;
     color: #f2f2f2;
     text-transform: uppercase;
@@ -146,7 +146,7 @@ hr{
     width: 450%;
     height: 200px;
     background: url("./img/Sin\ título-1.jpg");
-    margin-bottom: 40px
+    margin-bottom: 100px
 }
 
 .cards-banner-one .content  {
@@ -158,4 +158,37 @@ hr{
 .cards-banner-one p,
 .cards-banner-one h2 {
     margin: 10px;
+}
+
+/*--News cards 2--*/
+
+.news-cards2  {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 70px 0;
+}
+
+.news-cards2 img{
+    width: 100%;
+    height: 180px;
+    
+}
+
+.news-cards2 h3 {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.news-cards2 a {
+    padding: 10px 0px;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.news-cards2 a:hover {
+    text-decoration: underline;
 }
