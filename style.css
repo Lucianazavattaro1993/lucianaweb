@@ -52,11 +52,11 @@ ul {
 }
 
 .nav-main ul li {
-    padding: 10px;
+    padding: 5px;
 }
 
 .nav-main ul li a {
-    padding: 25px;
+    padding: 35px;
 }
 
 .nav-main ul li a:hover {
@@ -66,8 +66,8 @@ ul {
 }
 
 .nav-main ul.nav-menu {
-    flex: 1;
-    margin-left: 40px;
+    flex: 5;
+    margin-left: 120px;
 }
 
 /*--Showcase--*/
