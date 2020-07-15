@@ -192,3 +192,26 @@ hr{
 .news-cards2 a:hover {
     text-decoration: underline;
 }
+
+/*Social*/
+
+.social {
+    margin: 50px;  
+}
+
+.social p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    margin: 12px;
+    font-size: 3rem;
+}
