@@ -143,8 +143,8 @@ hr{
 /*--cards banner one--*/
 
 .cards-banner-one {
-    width: 450%;
-    height: 200px;
+    width: 105%;
+    height: 250px;
     background: url("./img/Sin\ título-1.jpg");
     margin-bottom: 100px
 }
@@ -214,4 +214,19 @@ hr{
 .links a {
     margin: 12px;
     font-size: 3rem;
+}
+
+/* Footer Links */
+
+.footer-links {
+    background: #2f3240;
+    color: #616161;
+    font-size: 10px;
+    padding: 15px, 0;
+
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
