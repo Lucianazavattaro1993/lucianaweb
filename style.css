@@ -70,6 +70,15 @@ ul {
     margin-left: 120px;
 }
 
+.menu-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    font-size: 1.2rem;
+}
+
 /*--Showcase--*/
 hr{
     margin: 10px 0;
@@ -80,8 +89,7 @@ hr{
     width: 100%;
     height:550px;
     background: url("./img/cabra2.jpg") no-repeat center/cover;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -229,4 +237,48 @@ hr{
 .footer-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-self: flex-start;
+    justify-content: center;
+}
+
+.footer-container ul {
+    margin: 0px auto;
+}
+.footer-container ul li{
+    line-height: 2.8;
+}
+
+.footer {
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media(max-width: 700px) {
+    .nav-main ul.nav-menu{
+        display: block;
+        position: absolute;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: #2f3640;
+        height: 100%;
+        padding: 30px;
+        opacity: .9;
+        transform: translate(-20px);
+    }
+    .news-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .news-cards2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards-banner-one .content {
+        width: 80%
+    }
 }
