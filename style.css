@@ -8,7 +8,7 @@
   body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: #000000 ;    
-    color: #ffffff
+    color: #ffffff;
     font-size: 16px;
   }
 
@@ -156,20 +156,21 @@
   }
   
   /* CARDS BANNER ONE */
-  .cards-banner-one {
+  .showcase2 {
+    border: none;
     width: 100%;
-    height: 350px;
-    background: url("./img/tech-red.jpg");
-    margin-bottom: 40px;
+    height: 600px;
+    background: url("./img/13cuernos.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    margin-bottom: 20px; 
   }
   
-  .cards-banner-one .content {
-    width: 40%;
-    padding: 90px 0 0 30px;
-    color: #fff;
-  }
-  
-  .cards-banner-one p,
   .cards-banner-two p {
     margin: 10px 0 20px 0;
   }
