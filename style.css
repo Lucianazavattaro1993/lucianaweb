@@ -119,9 +119,16 @@
     
   }
   
-  .showcase h2,
-  .showcase p {
-    margin-bottom: 10px;
+  .showcase h1 {
+    margin-bottom: 100px;
+    padding-left: 550px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: slideInLeft;
+    animation-duration:2s;
+    animation-delay: 0.9s;
+
   }
   
   .showcase .btn {
