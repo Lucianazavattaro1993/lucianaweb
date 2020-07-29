@@ -116,7 +116,7 @@
     padding-bottom: 40px;
     padding-top: 0px;
     margin-bottom: 0px;
-    animation: slide 10s infinite; 
+    animation: slide 20s infinite; 
   }
 
 
@@ -253,15 +253,15 @@
   }
 
   @keyframes slide {
-    0%  {
-      background-image: url(img/silla.png);
+    2%  {
+      background-image: url(img/Showcase2.jpg);
     }
 
     33%  {
       background-image: url(img/espalda.png);
     }
     67%  {
-      background-image: url(img/Showcase2.jpg);
+      background-image: url(img/silla.png);
     }
   } 
   
