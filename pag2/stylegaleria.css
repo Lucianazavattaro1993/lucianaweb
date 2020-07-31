@@ -188,11 +188,11 @@
       border-bottom: 0;
     }
   
-    .nav-main-galeria ul.nav-menu.show {
+    .nav-main-galeria ul.nav-menu-galeria.show {
       transform: translateX(-7px);
     }
   
-    .nav-main-galeria ul.nav-menu-right {
+    .nav-main-galeria ul.nav-menu-galeria-right {
       margin-right: 50px;
     }
   
