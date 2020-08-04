@@ -82,6 +82,19 @@
                 0 0 200px fuchsia,
   }
 
+  .bio h1 {
+    color: white;
+    font-size: 20px, bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .bio p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+
   /* Responsive Button */
   .menu-btn-biografia {
     cursor: pointer;
