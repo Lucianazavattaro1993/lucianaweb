@@ -80,9 +80,7 @@
                 0 0 25px fuchsia,
                 0 0 50px fuchsia,
                 0 0 200px fuchsia,
-  }
 
-  .img {
     
   }
 
@@ -96,6 +94,7 @@
     color: white;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
+    font-display: center;  
   }
   
 
